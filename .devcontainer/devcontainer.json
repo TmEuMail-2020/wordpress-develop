@@ -14,7 +14,8 @@
             "version": "14"
         },
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/devcontainers/features/git:1": {}
+        "ghcr.io/devcontainers/features/git:1": {}, 
+        "ghcr.io/devcontainers/features/sshd:1": {}            
     },
     "onCreateCommand": "sudo chmod +x .devcontainer/install-tools.sh && .devcontainer/install-tools.sh",
     "postCreateCommand": "sudo chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh",
